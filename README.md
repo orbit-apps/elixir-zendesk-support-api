@@ -10,7 +10,7 @@ by adding `zendesk_api` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:zendesk_api, "~> 0.1.0"}
+    {:zendesk_api, "~> 0.1.1"}
   ]
 end
 ```
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/zendesk_api](https://hexdocs.pm/zendesk_api).
-

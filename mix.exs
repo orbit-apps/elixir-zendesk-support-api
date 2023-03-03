@@ -1,10 +1,12 @@
 defmodule ZendeskSupportAPI.MixProject do
   use Mix.Project
 
+  @version "0.1.1"
+
   def project do
     [
       app: :zendesk_support_api,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -21,7 +23,7 @@ defmodule ZendeskSupportAPI.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.7"},
+      {:httpoison, "~> 2.0"},
       {:jason, "~> 1.0"}
     ]
   end
